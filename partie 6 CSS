@@ -1,0 +1,78 @@
+body {
+    font-family: Calibri,Arial,sans-serif;
+    background-color: #343752;
+    color: azure;
+}
+
+
+#container {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.cine {
+    background-color: #37B6B7;
+    width:290px;
+    height:130px;
+    margin:5px;
+    padding:10px;
+
+}
+
+.finance {
+    background-color: #683FB7;
+    width: 290px;
+    height: 130px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.sport {
+    background-color: #B71C54;
+    width: 290px;
+    height: 130px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.meteo {
+    background-color: #4C98E7;
+    width: 290px;
+    height: 130px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.item {
+    margin:5px;
+    width: 310px;
+    height: 150px;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+    #game {
+        background-color: #B71C54;
+        width: 150px;
+        height: 150px;
+        text-align:center;
+    }
+
+    #music {
+        background-color: #DA542D;
+        width: 150px;
+        height: 150px;
+        text-align:center;
+    }
+
+.voyage {
+    margin: 5px;
+    width: 310px;
+    height: 150px;
+}
+
+h2 + div {
+    float:right;
+}
